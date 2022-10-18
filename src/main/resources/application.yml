@@ -1,0 +1,14 @@
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update #create
+      #default_schema: STJ
+      show_sql: true
+      format_sql: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    generate-ddl: true
+  datasource:
+    url: "jdbc:postgresql://10.124.0.118:5432/stj_enes"
+    username: HVL
+    password: ***
